@@ -3,6 +3,7 @@ import { Navbar, Logo, Title, Input, Button } from "../components";
 import { signIn } from "../services/authService";
 import { Link, useNavigate } from "react-router-dom";
 import { useAuth } from "../contexts/AuthContext";
+import { BG } from "../components/Background";
 
 export function Login() {
   const [email, setEmail] = useState("");
@@ -25,6 +26,9 @@ export function Login() {
 
   return (
     <>
+      <div className="bg">
+        <BG/>
+      </div>
       <div className="max-w-md mx-auto p-4">
         <div className="text-center">
           <Logo />
