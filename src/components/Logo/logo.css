@@ -1,6 +1,6 @@
 .logo {
-  background-color: darkblue;
-  
+  background-color: rgba(0, 0, 139, 0.4) ;
+  border: 2px, solid, greenyellow;
   border-radius: 20px;
   display: inline-block;
   height: 190px;
@@ -13,8 +13,8 @@
 
 .logo .text-wrapper {
   color: greenyellow;
-  font-family: "Noto Sans-Black", Helvetica;
-  font-size: 36px;
+  font-family: "Libre Baskerville", serif;
+  font-size: 40px;
   font-weight: 900;
   top: 70px;
   letter-spacing: 0;

@@ -28,12 +28,12 @@ export function Register() {
                     <Logo />
                 </div>
 
-                <div className="pt-6 pb-4">
-                    <Title title="Bem-vindo de volta" />
+                <div className="text-white pt-6 pb-4">
+                    <Title title="Faça sua cadastro" />
                 </div>
 
                 <form onSubmit={handleSubmit}>
-                    <div className="pb-4">
+                    <div className="text-white pb-4">
                         <Input
                             label="Nome"
                             placeholder="Digite seu nome..."
@@ -43,7 +43,7 @@ export function Register() {
                             onChange={e => setName(e.target.value)}
                         />
                     </div>
-                    <div className="pb-4">
+                    <div className="text-white pb-4">
                         <Input
                             label="Email"
                             placeholder="Digite seu email..."
@@ -53,7 +53,7 @@ export function Register() {
                             onChange={e => setEmail(e.target.value)}
                         />
                     </div>
-                    <div className="pb-4">
+                    <div className="text-white pb-4">
                         <Input
                             label="Senha"
                             placeholder="Digite sua senha..."

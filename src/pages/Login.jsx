@@ -26,20 +26,18 @@ export function Login() {
 
   return (
     <>
-      <div className="bg">
-        <BG/>
-      </div>
+      
       <div className="max-w-md mx-auto p-4">
         <div className="text-center">
           <Logo />
         </div>
 
-        <div className="pt-6 pb-4">
-          <Title title="Faça seu cadastro" />
+        <div className="text-white pt-6 pb-4">
+          <Title title="Bem-vindo de volta!" />
         </div>
 
         <form onSubmit={handleSubmit}>
-          <div className="pb-4">
+          <div className="text-white pb-4">
             <Input
               label="Email"
               placeholder="Digite seu email..."
@@ -49,7 +47,7 @@ export function Login() {
               onChange={(e) => setEmail(e.target.value)}
             />
           </div>
-          <div className="pb-4">
+          <div className=" text-white pb-4">
             <Input
               label="Senha"
               placeholder="Digite sua senha..."
